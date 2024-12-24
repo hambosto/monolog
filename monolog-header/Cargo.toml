@@ -1,0 +1,11 @@
+[package]
+name = "monolog-header"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ilham Putra Husada <hambosto@gmail.com>"]
+description = "A library for handling encrypted file headers"
+license = "MIT"
+
+[dependencies]
+byteorder = "1.5.0"
+thiserror = "2.0.9"

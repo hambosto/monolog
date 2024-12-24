@@ -1,0 +1,9 @@
+[package]
+name = "monolog-derive"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+argon2 = "0.5.3"
+rand = "0.8.5"
+thiserror = "2.0.9"

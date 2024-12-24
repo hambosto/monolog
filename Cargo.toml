@@ -1,0 +1,9 @@
+[workspace]
+members = ["monolog-algorithms", "monolog-cli", "monolog-decryption", "monolog-derive", "monolog-encoding", "monolog-encryption", "monolog-header", "monolog-operations", "monolog-utils"]
+resolver = "1"
+
+[profile.release]
+codegen-units = 1
+lto = true
+panic = "abort"
+strip = true
